@@ -1,0 +1,45 @@
+body {
+    font-family: helvetica; 
+    padding-top: 10%;
+}
+
+#container{
+    width: 50%;
+    margin: auto;
+}
+
+.outerGrid {
+    padding-top: 10%;
+}
+
+.outerGrid li {
+    margin-bottom: 50px;
+}
+
+.innerGrid li {
+    display: inline;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: black;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 200;
+}
+
+.innerGrid .hot {
+    background: pink;
+    color: black;
+}
+
+.innerGrid .cold {
+    background: blue;
+}
+
+.innerGrid .correct {
+    background: green;
+}
+
+.innerGrid .incorrect {
+    background: red;
+}
